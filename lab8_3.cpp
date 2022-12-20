@@ -1,9 +1,24 @@
 #include<iostream>
+#include <string>
 using namespace std;
 
 char before(char x){
-	//Write your function definition here
+
+if(x <='Z' && x>'A')
+{
+ return x-1;
 }
+else if(x == 'A' )
+{
+ 
+ return x+25;
+}
+else
+{
+	return '0';
+}
+}
+
 
 int main(){
 	//Test Case
